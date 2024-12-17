@@ -60,7 +60,7 @@
     }
 
     .sub-heading {
-        @apply font-medium text-[20px] text-white max-w-2xl text-center break-words;
+        @apply font-medium text-[20px] text-black max-w-2xl text-center break-words;
     }
 
     .section_container {
@@ -202,8 +202,8 @@
         background-image: linear-gradient(
                 to right,
                 transparent 49.5%,
-                rgba(251, 232, 67, 0.2) 49.5%,
-                rgba(251, 232, 67, 0.6) 50.5%,
+                rgba(59, 255, 147, 0.2) 49.5%,
+                rgba(46, 124, 241, 0.6) 50.5%,
                 transparent 50.5%
         );
         background-size: 5% 100%;
