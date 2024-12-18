@@ -3,4 +3,6 @@ next-sanity@canary
 sanity-plugin-markdown
 easymde
 npx sanity@latest schema extract -path=./sanity/extract.json
+create a file => sanity-typegen.json , content is on the sanity website (scans the app for all groq queries to create types)
 npx sanity@latest typegen generate
+npm i server-only
