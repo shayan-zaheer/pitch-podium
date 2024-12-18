@@ -1,0 +1,6 @@
+sanity setup from site
+next-sanity@canary
+sanity-plugin-markdown
+easymde
+npx sanity@latest schema extract -path=./sanity/extract.json
+npx sanity@latest typegen generate
