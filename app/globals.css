@@ -219,3 +219,20 @@
 .w-md-editor-toolbar {
     padding: 10px !important;
 }
+
+.widget__actor{
+    position: relative;
+    border: 4px solid red;
+}
+
+#sentry-feedback {
+    --trigger-background: #cccccc;
+    --inset: auto auto 0 0;
+  }
+  @media (prefers-color-scheme: dark) {
+    #sentry-feedback {
+      --trigger-background: #222222;
+      --inset: auto auto 0 0;
+    }
+  }
+  
